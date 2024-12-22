@@ -4,7 +4,7 @@ It can be used as a template to create sample repositories that can be added int
 
 Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
 
-# Sample <LANGUAGE/FRAMEWORK>
+# Sample <JavaScript/ReactJS>
 
 Sample description
 
@@ -17,7 +17,7 @@ Sample description
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create https://github.com/UdaykiranRegimudi/sample-js-tutor-connect.git
    ```  
 
 ... MORE STEPS IF NEEDED ...

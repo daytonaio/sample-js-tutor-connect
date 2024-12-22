@@ -1,0 +1,24 @@
+{
+  "name": "Tutor-Connect Development Container",
+  "image": "oven/bun:1",
+  "forwardPorts": [
+    4500
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.autoSave": "onWindowChange",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "javascript.validate.enable": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "oven.bun-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "bun clean || true && rm -rf node_modules bun.lockb || true && bun install"
+}
