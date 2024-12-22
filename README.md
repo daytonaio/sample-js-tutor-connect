@@ -17,7 +17,7 @@ Sample description
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create [<SAMPLE_REPO_URL> ](https://github.com/UdaykiranRegimudi/sample-js-tutor-connect.git)
    ```  
 
 ... MORE STEPS IF NEEDED ...
