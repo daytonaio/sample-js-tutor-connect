@@ -18,7 +18,7 @@ Sample description
 2. **Create the Workspace**:  
    ```bash  
    daytona create https://github.com/UdaykiranRegimudi/sample-js-tutor-connect.git
-   ```
+   ```  
 
 ... MORE STEPS IF NEEDED ...
 
