@@ -4,6 +4,8 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
 
+
+
 import {
   commerce,english,data_science,physics, geo, chem, math, psycho, soft_skill, med
 } from '../media/Subject icons/Subjects'
