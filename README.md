@@ -15,7 +15,7 @@ Follow these steps to set up and run the application.
 1. **Create the Workspace**  
    Use Daytona to create the workspace by running the following command:
    ```bash
-   daytona create https://github.com/UdaykiranRegimudi/sample-js-tutor-connect.git
+   daytona create https://github.com/daytonaio/sample-js-tutor-connect.git
 
 <h3>Tutor Connect is a full-stack web application designed to help students schedule appointments with tutors. It also includes login/signup using JWT and Google OAuth.<h3> 
 
